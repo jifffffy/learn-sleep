@@ -1,0 +1,1 @@
+$endianess = iff(unpack('i!', pack('i+', 1))[0] == 1, "big", "little");

@@ -1,0 +1,15 @@
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java.srcDirs = ['src/main/sleep']
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
